@@ -1,0 +1,9 @@
+[Unit]
+Description=Timer logs hourly
+
+[Timer]
+OnUnitActiveSec=1h
+Persistent=true
+
+[Install]
+WantedBy=timers.target
